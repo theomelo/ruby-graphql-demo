@@ -4,7 +4,7 @@ module Mutations
   class CreateLinkTest < ActiveSupport::TestCase
 
     def perform(user: nil, **kwargs)
-      Mutations::CreateLink.new(object: nil, field: nil, context: {}).resolve(**kwargs)
+      CreateLink.new(object: nil, field: nil, context: {}).resolve(**kwargs)
     end
 
     test 'create a new link' do

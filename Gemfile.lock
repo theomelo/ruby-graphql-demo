@@ -66,6 +66,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
+    bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.10.3)
       msgpack (~> 1.2)
@@ -182,6 +183,7 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
+  bcrypt (~> 3.1.13)
   bootsnap
   debug
   graphiql-rails (~> 1.8.0)

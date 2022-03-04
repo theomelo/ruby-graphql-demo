@@ -34,6 +34,7 @@ gem "bootsnap", require: false
 # gem "sassc-rails"
 
 gem 'graphql', '~> 2.0.2'
+gem 'bcrypt', '~> 3.1.13'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
